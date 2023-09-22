@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="h-screen">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Note App with Vue</title>
+	</head>
+	<body class="bg-orange-300">
+		<div id="app"></div>
+		
+		<script type="module">
+			import App from './js/App.js';
+			
+			Vue.createApp(App).mount('#app');
+		</script>
+	</body>
+</html>
