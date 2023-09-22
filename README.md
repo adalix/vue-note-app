@@ -1,8 +1,5 @@
 # Note App
 `vue-note-app` is a learning purpose web application.
-- `cdn` : 
-- `app`: which c
-
 
 ## Aim
     - Mounting application
