@@ -8,12 +8,12 @@
 		class="flex items-center justify-between border-t-2 border-gray-300 pt-2.5"
 	>
 		<CreatedAt :note="item" />
-		<div>
+		<div class="flex">
 			<span class="mr-2 cursor-pointer">
-				<PencilIcon class="w-3 h-3" @click.prevent="updateByIndex" />
+				<PencilIcon class="w-4 h-4 hover:text-orange-900" @click.prevent="updateByIndex" />
 			</span>
 			<span class="cursor-pointer">
-				<TrashIcon  class="w-3 h-3" @click.prevent="deleteNoteByIndex" />
+				<TrashIcon  class="w-4 h-4 hover:text-orange-900" @click.prevent="deleteNoteByIndex" />
 			</span>
 		</div>
 	</div>

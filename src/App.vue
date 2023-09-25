@@ -1,6 +1,6 @@
 <template>
 	<div
-		:class="{ 'opacity-50 w-full h-screen': isDialogOpen }"
+		:class="{ 'blur-sm w-full h-screen': isDialogOpen }"
 		class="grid grid-flow-col auto-cols-max gap-4 m-12 relative bg-orange-300"
 	>
 		<!-- Add New Note -->
@@ -11,7 +11,7 @@
 				@click="toggleDialog"
 				class="w-20 h-20 flex items-center justify-center cursor-pointer text-4xl border-2 border-orange-500 border-dashed rounded-full"
 			>
-				<PlusIcon class="text-orange-500" />
+				<PlusIcon class="text-orange-500 " />
 			</div>
 			<p class="mt-5 text-orange-500">Add Note</p>
 		</div>
